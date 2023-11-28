@@ -48,7 +48,6 @@ const TodoList = ({ tasks }) => {
     setTitle("");
   };
   const handleInput = (e) => {
-    console.log(e);
     setTitle(e.target.value);
   };
 
