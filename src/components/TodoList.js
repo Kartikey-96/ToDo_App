@@ -49,6 +49,7 @@ const TodoList = ({ tasks }) => {
   };
   const handleInput = (e) => {
     setTitle(e.target.value);
+    console.log(e);
   };
 
   // push tasks that are completed to the bottom of the list
