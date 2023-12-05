@@ -116,7 +116,7 @@ const TodoList = ({ tasks }) => {
             onChange={handleInput}
             value={title}
           />
-          <button type="submit">Create Task</button>
+          <button type="submit">Make your Task</button>
         </form>
         <div className="task-input-container">
           <button
